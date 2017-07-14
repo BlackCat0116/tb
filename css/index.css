@@ -1,0 +1,437 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	max-width: 750px;
+	
+	
+}
+#top{
+	width: 750px;
+	height: 74px;
+	background: #FE5400;
+	display: flex;   /*创建弹性布局*/
+}
+#toplogo{
+	width: 80px;
+	height: 74px;
+	display: flex;
+	justify-content: center;    /*弹性布局居中填充*/
+	align-items: center;   /*弹性布局居中填充*/
+}
+#search{
+	width: 670px;
+	padding-right: 20px;
+	display: flex;
+	align-items: center;
+	
+}
+.rect{
+	width: 100%;
+	height: 48px;
+	background: rgba(0,0,0,0.3);
+	border-radius: 10px;     /*设置矩形圆角*/
+	font-size: 26px;
+	line-height: 48px;
+	color: #fff;
+	text-align: center;
+}
+
+#topimg img{
+	width: 750px;
+	height: 234px;
+}
+
+#list{
+	border: 1px solid #ccc;  /*设置边框线*/
+}
+
+#list div{
+	width: 750px;
+	height: 160px;
+	display: flex;
+	justify-content: space-around; /*弹性项目平均分布在该行上，两边留有一半 的间隔空间。*/
+	font-size: 24px;
+	color: rgb(102,102,102);
+	padding-top: 5px;
+
+
+
+}
+
+
+#list div a{
+	display: flex;
+	flex-direction: column;  /*纵向排列*/
+	text-decoration: none;
+	justify-content: center;
+	text-align: center;
+}
+
+#list div a img{
+	width: 120px;
+}
+
+#guanggao{
+	width: 750px;
+	height: 72px;
+	display: flex;
+}
+
+#toutiao{
+	width: 164px;
+	height: 66px;
+	/*border: 1px solid #ccc;*/
+	border-right: 1px solid #ccc;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	
+}
+
+#toutiao img{
+	width: 140px;
+	height: 40.5px;
+	text-align: center;
+	
+}
+
+
+
+#news{
+	flex: 1;
+	height: 72px;
+	line-height: 72px;
+	font-size: 25px;
+	padding-left: 15px;
+	
+}
+
+#tags{
+	border: 1px solid red;
+	
+	padding: 5px;
+	color: orangered;
+	border-radius: 10px;
+}
+#fengetiao{
+	width: 750px;
+	height: 10px;
+	background: rgb(238, 238, 238);
+}
+
+#ggtj{
+	display: flex;
+}
+
+#tqg{
+	padding-top:10px;
+	
+	border-right: 1px solid #ccc;
+	
+	border-bottom: 1px solid #ccc;
+	width: 278px;
+	height: 353.56px
+}
+#tqg img{
+	width: 278px;
+	height: 343.56px;
+}
+
+#tqgRight{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+#rightTop{
+	height:178px;
+	display: flex;
+	
+	
+}
+
+#rightTop img{ 
+	width: 100%;
+	height: 177px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#tqgdibu{
+	flex: 1;
+	display: flex;
+	/*flex-direction: column;   */     /*纵向排列*/
+	flex-direction: row;
+}
+
+#tqgdibu img{
+	width: 230px;
+	height:170px;
+	margin-top: 10px;
+	text-align: center;
+	
+}
+
+#fengetiao2 {
+	width: 750px;
+	height: 10px;
+	background: #CCC;
+}
+
+#csh{
+	
+	flex: 1;
+	display: flex;
+	/*height:  105px;*/
+	height: 65px;
+	border-bottom: 1px solid #ccc;
+	margin-top: 340px;
+	border-top: 10px solid rgb(238, 238, 238);
+}
+
+#csh img{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	/*margin-bottom:10px;*/
+	margin-left: 280px;
+	line-height: 50%;
+	margin-right: 10px;
+	margin-top:10px;
+	
+}
+
+#csh span{
+	font-size: 30px;
+	color: rgb(255,53,14);
+	margin-top:6px;
+	
+}
+
+#ggtj1{
+	display: flex;
+	width: 100%;
+	height: 515px;
+	border-bottom: 10px solid rgb(238, 238, 238);
+	/*flex-direction: row-reverse;*/
+}
+
+#rightgg{
+	width: 300px;
+	height: 500px;
+}
+
+#rightgg img{
+	width: 300px;
+	height: 250px;
+	
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+
+#youguanggao img{
+	flex: 1;
+	width: 146px;
+	height: 248px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+#bottom{
+	position: fixed;
+	width: 750px;
+	height: 86px;
+	bottom: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 1px solid #ccc;
+	background: #fff;
+}
+#bottom a{
+	display: flex;
+	width: 150px;
+	height: 76px;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #777;
+	
+}
+#bottom .iconfont{
+	font-size: 44px;
+}
+#bottom span{
+	font-size: 20px;
+}
+
+
+#tianmao{
+	display: flex;
+	flex: 1;
+	
+	/*height:  105px;*/
+	height: 65px;
+	/*border-bottom: 1px solid #ccc;
+	margin-top: 340px;
+	border-top: 10px solid #ccc;*/
+	border-bottom: 1px solid #ccc;
+	
+}
+
+#tianmao img{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	justify-content: center;
+	margin-left: 280px;
+	line-height: 50%;
+	margin-right: 10px;
+	margin-top:10px;
+}
+
+#tianmao span{
+	color: rgb(209, 9, 9);
+	font-size: 30px;
+	margin-top: 6px;
+}
+#tianmaoguanggao{
+	display: flex;
+	width: 100%;
+	height: 482px;
+	flex-direction: row;
+}
+
+#tianmaoguanggao img{
+	width: 370px;
+	height: 250px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+	
+
+
+#tianmaoimgxia img{
+	width: 183px;
+	height: 230px;
+	
+}
+
+#tshc{
+	width: 100%;
+	height: 65px;
+	display: flex;
+	/*margin-top: 10px;*/
+	border-top: 10px solid rgb(238, 238, 238);
+	border-bottom: 1px solid #ccc;
+}
+
+#tshc img{
+	width: 35px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 280px;
+	line-height: 65px;
+}
+
+#tshc span{
+	font-size: 30px;
+	color: rgb(255, 104, 19);
+	line-height: 52px;
+	margin-left: 8px;
+}
+
+#tshcguanggao{
+	display: flex;
+	width: 100%;
+	height: 500px;
+	flex-direction:row-reverse;
+	
+	
+}
+
+
+#tshcyou img{
+	flex: 1;
+    width: 146px;
+	height: 248px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	
+}
+#tshczuo{
+	width: 300px;
+	height: 500px;
+}
+
+#tshczuo img{
+	width: 300px;
+	height: 250px;
+	border-bottom:1px solid #ccc
+}
+
+#dibu{
+	display: flex;
+	width: 100%;
+	height: 65px;
+	flex-direction: row-reverse;
+	
+}
+#dibu span{
+	margin-top: 23px;
+	margin-right: 12px;
+}
+
+#dibu img {
+	margin-top: 18px;
+	margin-right: 10px;
+}
+
+#dibubh img{
+	margin-right: 480px;
+	margin-top: 10px;
+}
+
+#dibuguanggao img{
+	width: 100%;
+	height:100%;
+	border-bottom:10px solid rgb(238, 238, 238);
+  
+}
+
+#remenshichang{
+	display: flex;
+	width: 100%;
+	height: 65px;
+}
+
+#remenshichang img{
+	width: 35px;
+	height: 35px;
+    margin-left: 280px;
+	line-height: 50%;
+	margin-right: 10px;
+	margin-top:10px;
+}
+
+#remenshichang span{
+	font-size: 30px;
+	color: rgb(255, 71, 69);
+	margin-top:7px;
+}
+#rmscnr{
+	display: flex;
+	width: 100%;
+	height: 800px;
+	background: #ccc;
+}
